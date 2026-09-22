@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jugno Overseas Consultancy | Overseas Documentation &amp; Verification Services</title>
+  <meta name="description"
+    content="Jugno Overseas Consultancy in Islamabad provides professional facilitation and consultancy for Visa Services, HEC, IBCC, Apostille, MoFA, educational board and embassy verification services for overseas documentation.">
+  <meta name="keywords"
+    content="Jugno Overseas Consultancy, Overseas Consultancy Islamabad, Job Visa, Work Visa, Visit Visa, Family Visa, Document Attestation Islamabad, HEC Degree Attestation, IBCC Verification, Apostille Pakistan, MoFA Attestation, Embassy Verification, UAE Document Attestation, Dubai Document Verification, Qatar Document Attestation, Saudi Arabia Document Verification">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Jugno Overseas Consultancy">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jugno Overseas Consultancy | Overseas Documentation & Verification Services">
+  <meta property="og:description"
+    content="Professional facilitation and consultancy for Visa Services, HEC, IBCC, Apostille, MoFA, educational board and embassy verification services for overseas documentation. Based in Islamabad, Pakistan.">
+  <meta property="og:image" content="{{ url_for('static', filename='images/og-cover.png') }}">
+  <meta property="og:locale" content="en_PK">
+  <meta property="og:site_name" content="Jugno Overseas Consultancy">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon-32.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon-16.png') }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/apple-touch-icon.png') }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+      HEADER / NAVIGATION
+      ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <picture>
+          <source srcset="{{ url_for('static', filename='images/logo-icon.webp') }}" type="image/webp">
+          <img src="{{ url_for('static', filename='images/logo-icon.png') }}" alt="Jugno Overseas Consultancy logo"
+            class="brand-logo">
+        </picture>
+        <span class="brand-text">
+          <span class="brand-mark">JUG<span>N</span>O</span>
+          <span class="brand-sub">Overseas Consultancy</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#apply">Apply Now</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline">Contact</a>
+        <a href="https://wa.me/923231581509?text=Hello%20Jugno%20Overseas%20Consultancy%2C%20I%20would%20like%20information%20about%20your%20overseas%20documentation%20and%20verification%20services."
+          target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.13.11-1.82-.12-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.58-.35.77-.35h.55c.18 0 .42-.07.65.5.24.58.82 2 .89 2.14.07.14.12.31.02.5-.1.19-.15.31-.3.48-.14.17-.3.37-.43.5-.14.14-.3.29-.13.57.17.28.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.33 1.44.28.14.44.12.6-.07.17-.19.71-.83.9-1.11.19-.28.38-.24.63-.14.26.09 1.66.78 1.94.93.28.14.47.21.53.33.07.12.07.68-.17 1.36Z" />
+          </svg>
+          WhatsApp Us
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"
+        aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <picture>
+      <source srcset="{{ url_for('static', filename='images/logo-icon.webp') }}" type="image/webp">
+      <img src="{{ url_for('static', filename='images/logo-icon.png') }}" alt="Jugno Overseas Consultancy"
+        class="mobile-menu-logo">
+    </picture>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#apply">Apply Now</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/923231581509?text=Hello%20Jugno%20Overseas%20Consultancy%2C%20I%20would%20like%20information%20about%20your%20overseas%20documentation%20and%20verification%20services."
+      target="_blank" rel="noopener" class="btn btn-whatsapp" style="margin-top:10px;">WhatsApp Us</a>
+  </div>
+
+  <!-- ==========================================================================
+      HERO
+      ========================================================================== -->
+  <section class="hero" id="home">
+    <svg class="hero-routes" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="#D8B45A" stroke-width="1" fill="none" opacity="0.5">
+        <path d="M120,430 Q420,300 640,360" stroke-dasharray="4 6" />
+        <path d="M120,430 Q460,180 760,150" stroke-dasharray="4 6" />
+        <path d="M120,430 Q560,420 860,470" stroke-dasharray="4 6" />
+        <path d="M120,430 Q600,120 980,90" stroke-dasharray="4 6" />
+      </g>
+      <g fill="#D8B45A">
+        <circle cx="120" cy="430" r="4.5" />
+        <circle cx="640" cy="360" r="3" />
+        <circle cx="760" cy="150" r="3" />
+        <circle cx="860" cy="470" r="3" />
+        <circle cx="980" cy="90" r="3" />
+      </g>
+    </svg>
+
+    <div class="container hero-grid">
+      <div class="hero-copy reveal in-view">
+        <span class="hero-badge"><span class="dot"></span> Islamabad-Based Consultancy</span>
+        <h1>Your Trusted Partner for <em>Overseas Documentation & Visas</em></h1>
+        <p class="lead">Professional facilitation and consultancy for visa applications, document attestation,
+          verification, apostille and overseas documentation requirements.</p>
+
+        <div class="hero-actions">
+          <a href="#apply" class="btn btn-gold btn-lg">Start Your Application</a>
+          <a href="https://wa.me/923231581509?text=Hello%20Jugno%20Overseas%20Consultancy%2C%20I%20would%20like%20information%20about%20your%20overseas%20documentation%20and%20verification%20services."
+            target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.06c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.13.11-1.82-.12-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.58-.35.77-.35h.55c.18 0 .42-.07.65.5.24.58.82 2 .89 2.14.07.14.12.31.02.5-.1.19-.15.31-.3.48-.14.17-.3.37-.43.5-.14.14-.3.29-.13.57.17.28.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.33 1.44.28.14.44.12.6-.07.17-.19.71-.83.9-1.11.19-.28.38-.24.63-.14.26.09 1.66.78 1.94.93.28.14.47.21.53.33.07.12.07.68-.17 1.36Z" />
+            </svg>
+            WhatsApp Us
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z" />
+              <circle cx="12" cy="9.5" r="2.4" />
+            </svg>
+            <div>
+              <div class="label">Location</div>
+              <div class="value">Islamabad, Pakistan</div>
+            </div>
+          </div>
+          <div class="item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3.5 2" />
+            </svg>
+            <div>
+              <div class="label">Scope</div>
+              <div class="value">Serving Overseas Documentation Requirements</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal in-view">
+        <div class="doc-card">
+          <div class="doc-card-head">
+            <div>
+              <div class="label">Document Facilitation</div>
+              <div class="title">Verification Case</div>
+            </div>
+            <div class="seal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M9 12.5l2 2 4-4.5" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+            </div>
+          </div>
+          <div class="doc-lines">
+            <div class="doc-line w-100"></div>
+            <div class="doc-line w-80"></div>
+            <div class="doc-line w-60"></div>
+          </div>
+          <div class="doc-card-foot">
+            <div class="doc-status"><span class="pulse"></span> In Process</div>
+            <span style="font-size:12px;color:rgba(255,255,255,0.45);">Ref. JOC-2026</span>
+          </div>
+        </div>
+        <div class="doc-card-2">
+          <div class="icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M4 7h16M4 12h16M4 17h10" />
+            </svg>
+          </div>
+          <div class="txt">
+            <div class="n">11 Services</div>
+            <div class="s">VISAS · HEC · IBCC · MoFA · Apostille · Boards · Embassy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+      SERVICES (DYNAMIC FROM FLASK)
+      ========================================================================== -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What We Offer</span>
+        <h2>Our Professional Services</h2>
+        <p>Reliable guidance and facilitation for your overseas documentation, visa applications, and verification
+          needs.</p>
+      </div>
+
+      <div class="services-grid stagger reveal">
+        {% if services %}
+        {% for s in services %}
+        <div class="service-card" style="--i:{{ loop.index0 }}">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" y1="13" x2="8" y2="13" />
+              <line x1="16" y1="17" x2="8" y2="17" />
+            </svg>
+          </div>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.description }}</p>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p style="text-align: center; color: white;">No services found.</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+      DESTINATIONS
+      ========================================================================== -->
+  <section class="destinations section-pad" id="destinations">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Where We Assist</span>
+        <h2>Overseas Documentation & Visa Services</h2>
+      </div>
+
+      <div class="dest-grid stagger reveal">
+        <div class="dest-chip" style="--i:0">
+          <div class="flag">🇦🇪</div>
+          <div class="name">Dubai / UAE</div>
+        </div>
+        <div class="dest-chip" style="--i:1">
+          <div class="flag">🇶🇦</div>
+          <div class="name">Qatar</div>
+        </div>
+        <div class="dest-chip" style="--i:2">
+          <div class="flag">🇰🇼</div>
+          <div class="name">Kuwait</div>
+        </div>
+        <div class="dest-chip" style="--i:3">
+          <div class="flag">🇲🇾</div>
+          <div class="name">Malaysia</div>
+        </div>
+        <div class="dest-chip" style="--i:4">
+          <div class="flag">🇸🇦</div>
+          <div class="name">Saudi Arabia</div>
+        </div>
+        <div class="dest-chip" style="--i:5">
+          <div class="flag">🌍</div>
+          <div class="name">Other Countries</div>
+        </div>
+      </div>
+
+      <p class="dest-note reveal">We assist clients with documentation, visa applications, and verification requirements
+        for Dubai, UAE, Qatar, Kuwait, Malaysia, Saudi Arabia and other international destinations, subject to the
+        requirements of the relevant authorities.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+      ABOUT
+      ========================================================================== -->
+  <section class="about section-pad" id="about">
+    <div class="container about-grid">
+      <div class="about-panel reveal">
+        <h3>Our Commitment</h3>
+        <p>We work closely with every client to make sure their documentation and visa applications are understood,
+          organised and prepared correctly before moving forward &mdash; with clear communication at every stage.</p>
+      </div>
+
+      <div class="about-copy reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>About Jugno Overseas Consultancy</h2>
+        <p>Jugno Overseas Consultancy is an Islamabad-based overseas facilitation and consultancy service dedicated to
+          helping individuals manage visa applications, documentation, verification and attestation requirements for
+          international use.</p>
+        <p>Our goal is to make the process easier by providing clear information, practical guidance and professional
+          facilitation.</p>
+
+        <ul class="feature-list">
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Job, Work, Visit & Family Visa Guidance</li>
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Professional Documentation Assistance</li>
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Clear Process Guidance</li>
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Multiple Country Services</li>
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Islamabad Office</li>
+          <li><span class="check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.4">
+                <path d="M5 13l4 4L19 7" />
+              </svg></span>Dedicated Customer Support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {% include "partials.html" %}
+
+</body>
+
+</html>
