@@ -1,0 +1,77 @@
+{
+  "name": "Naveed Ahmad",
+  "title": "Data Science | Data Analyst | Machine Learning | Analytical Modeling",
+  "contact": {
+    "phone": "+92 332 9050475",
+    "email": "naveedahmadkhan804@gmail.com",
+    "location": "KPK, Pakistan",
+    "linkedin": "https://linkedin.com",
+    "github": "https://github.com"
+  },
+  "summary": "Data Science graduate with a strong foundation in Python, SQL, machine learning, statistical analysis, and data visualization. Experienced in data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, and predictive modeling to extract actionable insights. Skilled in building interactive Power BI dashboards and applying machine learning techniques for classification and prediction tasks, including a full-stack multi-disease prediction platform.",
+  "education": [
+    {
+      "institution": "Government College University Faisalabad (GCUF), Pakistan",
+      "degree": "BS Data Science (BSDS)",
+      "grade": "First Division",
+      "period": "2022-2026"
+    },
+    {
+      "institution": "B.I.S.E Bannu Board",
+      "degree": "FSc Pre-Medical",
+      "grade": "Grade A+",
+      "period": "2018-2020"
+    },
+    {
+      "institution": "B.I.S.E Federal Board",
+      "degree": "Matriculation in Science",
+      "grade": "Grade A+",
+      "period": "2016-2018"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Data Science Intern",
+      "company": "SofticEra Institute & Software House",
+      "location": "Faisalabad, Pakistan",
+      "period": "03/2025-06/2025",
+      "bullets": [
+        "Cleaned, preprocessed, and analyzed real-world datasets using Python (Pandas, NumPy) to prepare data for modeling.",
+        "Built machine learning models for prediction and classification tasks, and evaluated model performance.",
+        "Designed Power BI visualizations and dashboards to support data-driven decision-making.",
+        "Performed SQL-based data extraction and supported database management tasks.",
+        "Collaborated with senior developers and analysts on team-based projects, gaining hands-on experience in reporting and documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pulse-AI",
+      "type": "Full-Stack Web-Based AI Disease Detection System (Final Year Project)",
+      "institution": "GCUF",
+      "period": "01/2026-06/2026",
+      "description": "Developed a full-stack AI-powered healthcare platform that analyzes patient health data to provide early disease risk predictions. Built and integrated four ML classification models: Heart Disease, Diabetes, Stroke Risk, and Liver Disease prediction.",
+      "tags": ["Python", "Machine Learning", "Flask", "Healthcare AI"]
+    },
+    {
+      "name": "Lung Cancer Power BI Dashboard",
+      "type": "Power BI Analytics Dashboard",
+      "institution": "GCUF",
+      "period": "01/2024-05/2024",
+      "description": "Developed an interactive Power BI dashboard to analyze lung cancer data, identify key patterns and trends, and present insights through dynamic visualizations.",
+      "tags": ["Power BI", "Data Visualization", "Analytics"]
+    }
+  ],
+  "skills": {
+    "programming_and_data_analysis": ["Python (Pandas, NumPy, Matplotlib, Seaborn)", "R (Plotly)", "SQL", "MS Excel"],
+    "bi_and_visualization": ["Power BI", "Data Visualization (Python, R, MS Excel, Power BI)"],
+    "machine_learning_and_ai": ["Machine Learning (Scikit-learn)", "Deep Learning (TensorFlow)", "Predictive Modeling"],
+    "statistics_and_analytical": ["Statistical Analysis", "Analytical Thinking", "Problem Solving"],
+    "professional_skills": ["Communication", "Collaboration", "Teamwork", "Project Management"]
+  },
+  "languages": [
+    {"language": "English", "proficiency": "Advanced"},
+    {"language": "Urdu", "proficiency": "Proficient"},
+    {"language": "Pashto", "proficiency": "Native"}
+  ]
+}
